@@ -1,7 +1,7 @@
 --[[
-  Khub Obfuscator — Protected Output
-  Key: KHUB-PUBLIC
-  Seed: d14ff5e29e20
+  SAM Obfuscator — Protected Output
+  Key: 
+  Seed: 
   Built: 2026-10-08T08:58:09.830Z
 ]]
 
